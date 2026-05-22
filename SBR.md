@@ -2211,9 +2211,9 @@ All objects signed by a CA Private Key SHALL conform to these requirements on th
 In particular, it applies to all of the following objects and fields:
 
 * The `signatureAlgorithm` field of a Certificate.
-* The `signature` field of a TBSCertificate (for example, as used by a Certificate).
+* The `signature` field of a `tbsCertificate` (for example, as used by a Certificate).
 * The `signatureAlgorithm` field of a CertificateList
-* The `signature` field of a TBSCertList
+* The `signature` field of a `tbsCertList`
 * The `signatureAlgorithm` field of a BasicOCSPResponse.
 
 No other encodings are permitted for these fields.
